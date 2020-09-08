@@ -286,7 +286,7 @@ body{
     border: 3px solid rgb(223, 174, 14, 0.4);
     position: fixed;
 }
-@media (min-width: 1534px){
+@media screen and (min-width: 1534px){
     #mainBlock{
         width: 100%;
         max-width: 100%;
@@ -310,7 +310,7 @@ body{
         max-width: 100%;
     }
 }
-@media (max-width: 1218px){
+@media screen and (max-width: 1218px){
     #mainBlock{
         display: inline;
     }
@@ -325,17 +325,17 @@ body{
         margin-right: auto;
     }
 }
-@media (max-width: 838px){
+@media screen and (max-width: 838px){
     #not3 img{
         height: 107px;
     }
 }
-@media (max-width: 796px){
+@media screen and (max-width: 796px){
     .divAdivinanza{
         height: 580px;
     }
 }
-@media (max-width: 724px){
+@media screen and (max-width: 724px){
     #indices{
         width: 300px;
         margin-left: auto;
@@ -362,16 +362,17 @@ body{
         margin-right: auto;
     }
 }
-@media (max-width: 680px){
+@media screen and (max-width: 680px){
     .carousel-caption p{
         display: none;
     }
-@media (max-width: 612px){
+}
+@media screen and (max-width: 612px){
     .divAdivinanza{
         height: 600px;
     }
 }
-@media (max-width: 548px){
+@media screen and (max-width: 548px){
     .divAdivinanza{
         height: 590px;
     }
