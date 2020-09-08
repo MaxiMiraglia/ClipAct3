@@ -1,5 +1,5 @@
 var intentos = 1;
-function juego() {
+function adivinanza() {
     if (intentos >= 4) {
         alert("Oh, se te acabaron los intentos. La respuesta era: estrella de neutrones")
         document.getElementById(rta).disabled = true;
@@ -7,7 +7,7 @@ function juego() {
     var rtacorrecta = "estrella de neutrones";
     var rtainput = document.getElementById("rta").value;
     do {
-        if (rtainput === rtacorrecta) {
+        if (rtainput.trim().toLowerCase() === rtacorrecta) {
             alert("¡Respuesta correcta! Adivinaste en " + intentos + " intentos");
         }
         else {
