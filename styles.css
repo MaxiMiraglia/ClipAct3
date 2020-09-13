@@ -17,9 +17,6 @@ li{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.btn{
-    margin-top: 10px;
-}
 nav{
     background-color: rgba(177, 13, 253, 0.2);
 }
@@ -29,18 +26,11 @@ header{
     text-align: center;
     padding-top: 10px;
 }
-header img{
-    display: inline;
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
 body{
     margin-left: 10px;
     margin-right: 10px;
     background-color: black;
-    background-image: url("/imgs/fondo_negro.jpg");
+    background-image: url("imgs/fondo_negro.jpg");
 }
 #carouselExampleCaptions{
     display: block;
@@ -277,6 +267,9 @@ body{
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+.btn{
+    margin-top: 10px;
 }
 #volver_arriba{
     font-size: 13px;
